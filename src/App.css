@@ -1,0 +1,72 @@
+/* The body and header class will have the font 'Impact, Charcoal' from the san-serif family. The background colour will be Powder Blue, 
+along with a centered font, with the colour of Crimson. */
+body,
+.header {
+    font-family: Impact, Charcoal, sans-serif;
+    background-color: #B0E0E6;
+    color: #DC143C;
+    text-align: center;
+}
+
+/* The font family will be 'comic sans ms' from the san-serif font family. The background colour will be Blanched Almond. 
+The font colour will be Forest Green. The border will be the same colour as the font colour, which will be a 1 pixel solid border. 
+The width of the input box will be 30%, with padding of 4 pixels. Lighter font weight is used, along with 2 pixels letter spacing. 
+The margin bottom will be 30 pixels, and the margin right will be 20 pixels. Font size will be 26 pixels. */
+input[type="text"] {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    background-color: #FFEBCD;
+    color: #228B22;
+    border: 0;
+    border-bottom: solid 1px #228B22;
+    width: 30%;
+    padding-bottom: 4px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    font-size: 26px;
+}
+
+/* When the user inputs values, there will be no outline around the text box. */
+input[type="text"] {
+    outline: none;
+}
+
+/* The box shadow will be Blanched Almond, with a font colour of Forest Green. */
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 50px #FFEBCD inset;
+    -webkit-text-fill-color: #228B22;
+}
+
+/* The font family will be 'comic sans ms' from the san-serif font family. The background colour will be Blanched Almond. 
+The font colour will be Forest Green. Padding will be 10 and 20 pixels, with a margin of 0 and 2 pixels.
+The border radius will be 2 pixels, and the bottom of the border will be a solid 1 pixel, with a colour of Forest Green.
+The font weight will be bolder, with letter spacing of 1 pixel, and a font size of 15 pixels. The cursor will be a pointer. */
+button {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    border: 0;
+    padding: 10px 20px;
+    margin: 0 2px;
+    border-radius: 2px;
+    border-bottom: solid 1px #228B22;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: #FFEBCD;
+    color: #228B22;
+}
+
+/* When the user clicks on the button, it will not have an outline around it. */
+button:active {
+    outline: none;
+}
+
+/* The font family will be 'comic sans ms' from the san-serif font family. 
+The font colour will be Forest Green. The font size will be 26 pixels. */
+p,
+h3 {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: #228B22;
+    font-size: 26px;
+}
